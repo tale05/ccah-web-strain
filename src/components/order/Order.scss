@@ -1,0 +1,79 @@
+.Order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    padding-bottom: 10vw;
+
+    .wrap-state {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        overflow: hidden;
+
+        .btn-state {
+            padding-left: 20px;
+            padding-right: 20px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+
+        .btn-state:hover {
+            color: #00A551;
+            transition: 0.3s ease-in-out;
+        }
+
+        .active {
+            color: #00A551;
+        }
+    }
+
+    .wrap-order {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
+
+.empty-order {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .img-empty-order {
+        height: 400px;
+        width: 400px;
+    }
+    .content {
+        width: 80%;
+        text-align: center;
+    }
+
+    .btn-login {
+        background: #76B947;
+        border-radius: 10px;
+        padding: 10px 80px;
+        color: white;
+        transition: 0.5s;
+        font-size: 20px;
+    }
+
+    .btn-login:hover {
+        padding: 10px 120px;
+        color: white;
+        transition: 0.5s;
+        color: black;
+        background: none;
+        border: 1px solid black;
+        transition: 0.5s;
+    }
+}

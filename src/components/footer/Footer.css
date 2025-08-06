@@ -1,0 +1,82 @@
+.Footer {
+    background-color: #00A551;
+    /* background: rgba(46, 204, 113, 1); */
+    /* background: linear-gradient(315deg, rgba(255, 255, 255, 1) 0%, rgba(0, 165, 81, 1) 61%); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.Footer .icon {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.Footer .logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.Footer .search-box {
+    display: flex;
+    border-radius: 50px;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 20px;
+    height: 40px;
+    position: relative;
+    width: 50%;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.Footer input {
+    background: transparent;
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    width: 70%;
+}
+
+.Footer .search-box button {
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    color: white;
+    border-radius: 50px;
+    width: 25%;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    font-size: 16px;
+
+}
+
+.Footer input::placeholder {
+    color: black;
+
+}
+
+
+
+.Footer .Link {
+    color: white;
+}
+
+.Footer .Link:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.about-us {
+}

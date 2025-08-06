@@ -1,0 +1,42 @@
+.custom-select {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-select select {
+    display: none;
+}
+
+.select-arrow {
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 4px);
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #000; /* Màu sắc của mũi tên */
+}
+
+/* Tùy chỉnh giao diện của dropdown */
+.custom-select select {
+    appearance: none; /* Loại bỏ giao diện mặc định của dropdown */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 8px 16px; /* Tùy chỉnh padding */
+    border: 1px solid #ccc; /* Tùy chỉnh border */
+    border-radius: 4px; /* Tùy chỉnh góc bo */
+    background-color: #fff; /* Tùy chỉnh màu nền */
+    cursor: pointer;
+}
+
+/* Khi dropdown được focus */
+.custom-select select:focus {
+    outline: none;
+    border-color: #000; /* Tùy chỉnh màu border khi focus */
+}
+
+/* Khi dropdown được hover */
+.custom-select select:hover {
+    background-color: #f9f9f9; /* Tùy chỉnh màu nền khi hover */
+}

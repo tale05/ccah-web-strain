@@ -1,0 +1,88 @@
+.AboutUs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    
+    .row-banner {
+        width: 100%;
+        .banner {
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            object-fit: fill;
+        }
+    }
+    .row-content {
+        margin-top: 20px;
+        padding: 0 15vw;
+        display: flex;
+        align-items: center;
+
+        .col-1 {
+            display: flex;
+            width: 50%;
+            flex-direction: column;
+
+            .title {
+                color: #17894d;
+                text-decoration: underline;
+                text-underline-offset: 5px;
+
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .col-2 {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .row-value {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding: 0 15vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title-value {
+            color: #17894d;
+        }
+
+        .wrap-all-value {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .wrap-value {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 20%;
+                font-family: "Baloo Tamma 2", system-ui;
+
+                img {
+                    width: 100%;
+                    border-radius: 999px;
+                    object-fit: cover;
+                }
+                p {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
