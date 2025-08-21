@@ -28,12 +28,12 @@ It allows customers, researchers, and staff to interact with research projects, 
 | 📚 Research Publications | Display and browse completed projects & scientific papers  | ✔️     |
 | 🧪 Product Showcase      | Showcase biotechnology/microorganism products              | ✔️     |
 | 🔍 Search & Filter       | Search products by category, species, or type              | ✔️     |
-| 🛒 Order Management      | Customers can place and cancel orders                      | ✔️     |
+| 🛒 Order Management      | Customers can place and cancel orders                      | ❌     |
 | 👩‍🔬 Researcher Portal     | Researchers can update product info & view approval status | ✔️     |
 | 📊 Progress Reporting    | Researchers report project progress online                 | ✔️     |
 | 🔐 Authentication        | Login, register, and password management for users         | ✔️     |
-| 🌐 Multilingual          | English & Vietnamese support                               | ✔️     |
-| 📱 Responsive UI         | Works on desktop, tablet, and mobile                       | ✔️     |
+| 🌐 Multilingual          | English & Vietnamese support                               | ❌     |
+| 📱 Responsive UI         | Works on desktop, tablet, and mobile                       | ❌     |
 
 ---
 
